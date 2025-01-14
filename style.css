@@ -1,0 +1,241 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{ 
+    background-color: black;
+    color: #EFB6C8;
+    line-height: 1.3;
+    font-family: 'Samsung Sharp Sans Regular', sans-serif;
+    color: white;
+    width: 100%;
+}
+.container{
+    display: flex;
+    height: 100vh;
+
+}
+.sidebar{
+    background-color:  rgb(63, 66, 123);
+    padding: 10px;
+    border-right: 1px solid white;
+    height: 750px;
+
+}
+.profile{
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #c2b1b6;
+}
+.profile h2{
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-size: 30px;
+    color: #EFB6C8;
+}
+.profile p{
+    font-size: 15px;
+    font-weight: 700;
+}
+.nav-bar{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;   
+}
+.nav-bar a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 10px;
+    align-items: center;
+    transition: 0.2s ease;
+    display: flex;
+    gap: 50px;
+}
+.nav-bar a:hover{
+    background-color: #EFB6C8;
+    color: black;  
+}
+.main-content{
+    padding: 40px;
+    margin-top: -30px;
+}
+.header{
+    display: flex;
+    justify-content:  space-between;
+    align-items: center;
+    margin-bottom: 35px;
+
+}
+.search-bar{
+    display: flex;
+    gap:10px;
+}
+.search-bar input{
+    width: 300px;
+    border-radius: 80px;
+    padding: 10px 15px;
+    border: 2px solid red;
+
+}
+.search-bar img{
+    width: 30px;
+    height: 30px;
+}
+.button-icon {
+    background-color: wheat;
+    border-radius: 30px;
+}
+.button-icon:hover{
+    background-color: white;
+    cursor: pointer;
+    color: white;
+    
+}
+.social{
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+    width: 700px;
+    margin-left: -200px;
+}
+.social img{
+    height: 50px;
+    width: 50px;
+}
+.image1{
+    margin-left: -80px;
+
+}
+.stats{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap:20px;
+    margin-bottom: 30px;
+    margin-top: -20px;
+}
+
+.stat-card{
+    background-color:  rgb(100, 103, 171);
+    width: 25%;
+    padding: 20px;
+    font-size: 16px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+    transition: 0.5s ease;
+}
+
+
+.stat-card:hover{
+    transform: translateY(-5px);
+}
+.stat-card h3{
+    color: black;
+    margin-bottom: 8px;
+
+}
+.skills-section{
+    background-color: rgb(42, 44, 100);
+    padding: 30px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.skill-div{
+    display: flex;
+    flex-direction: column;
+    /* gap: 10px; */
+    margin-top: 10px;
+}
+
+progress{
+    width: 100%;
+    height: 7px;
+    border-radius: 20px;
+    background-color: rgb(139, 173, 72);
+}
+progress::-webkit-progress-bar{
+    border-radius: 10px;
+}
+progress::-webkit-progress-bar{
+    border-radius: 10px;
+}
+
+.project-section{
+    background-color: #211254;
+    border-radius: 20px;
+    padding: 32px;
+}
+
+.project-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 20px;
+}
+.project-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap:20px;
+    margin-top: 10px;
+    width: 100%;   
+}
+.project1{
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(31, 34, 128);
+    border-radius: 20px;
+    padding: 20px;
+    margin-right:2px;
+}
+.project2{
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(31, 34, 128);
+    border-radius: 20px;
+    padding: 20px;
+    margin-right:2px;
+   
+}
+.project3{
+    display: flex;
+    flex-direction:column;
+    background-color: rgb(31, 34, 128);
+    border-radius: 20px;
+    padding: 20px;
+    margin-right:2px;
+}
+.plan{
+    border-radius: 20px;
+    width: 100px;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+.oct{
+    margin-left: 200px;
+    margin-top: -35px;
+}
+.comp{
+    border-radius: 20px;
+    width: 100px;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+.oct4{
+    margin-left: 170px;
+    margin-top: -35px;
+}
+.resume{
+    position: relative;
+    top: -50px;
+    left: -20px;
+}
